@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fr.antoineok",
+    "module": "antistealapi",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2",
+      "buildId": "fyg4phpunnd7bcrbfna7whenv4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.12"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antistealapi-1.0.jar",
+          "url": "antistealapi-1.0.jar",
+          "size": 4289,
+          "sha512": "176ada87f59a98125599a78e2519467c8cb4f1b28e93b798c5de41f515dba23ea22442197272724c5d5a1035556a645b1a4a66130c7d06acc8f07936ee3046ca",
+          "sha256": "647ae037807c32baa71ddf203499e28bb4ab8d85a22c7230dd349f8bf09b0118",
+          "sha1": "2d24944385c8da42eadc2120bf8503da33bd85b8",
+          "md5": "6b7e5d1ea6fba0eb80b245d85ee5a574"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.12"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antistealapi-1.0.jar",
+          "url": "antistealapi-1.0.jar",
+          "size": 4289,
+          "sha512": "176ada87f59a98125599a78e2519467c8cb4f1b28e93b798c5de41f515dba23ea22442197272724c5d5a1035556a645b1a4a66130c7d06acc8f07936ee3046ca",
+          "sha256": "647ae037807c32baa71ddf203499e28bb4ab8d85a22c7230dd349f8bf09b0118",
+          "sha1": "2d24944385c8da42eadc2120bf8503da33bd85b8",
+          "md5": "6b7e5d1ea6fba0eb80b245d85ee5a574"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antistealapi-1.0-sources.jar",
+          "url": "antistealapi-1.0-sources.jar",
+          "size": 2457,
+          "sha512": "26d2608b257b65452512cbc4b291f8fd4bfc3416c820b6a97481a5e3427c456d5256417ba3a6ee2b1d800e55ec03271547ad03388fe4752eb372ce5bd15c6896",
+          "sha256": "8524dd870d640618f2c152e1fe23a5ad0d1c8b53794f30ffd86011a7ce8b96cf",
+          "sha1": "21e7ea78e8140ba793a86a1ae0ed91f8f514806d",
+          "md5": "0a8bd895f0a60621befe727eae0e8706"
+        }
+      ]
+    }
+  ]
+}
